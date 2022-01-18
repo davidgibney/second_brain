@@ -1,0 +1,38 @@
+{
+    "workbench.colorTheme": "Default High Contrast",
+    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "crash",
+    "editor.fontFamily": "Nanum Gothic Regular, NanumGothicCoding, Fira Code Retina, FiraCode-Retina, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.zoomLevel": 2,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "python.pythonPath": "/usr/local/bin/python3",
+    "security.workspace.trust.untrustedFiles": "open",
+    "redhat.telemetry.enabled": false,
+    "files.associations": {
+        "*.tfvars": "terraform"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.renderWhitespace": "trailing",
+    "editor.cursorStyle": "line",
+    "editor.autoClosingBrackets": "beforeWhitespace",
+    "editor.autoClosingQuotes": "beforeWhitespace",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.letterSpacing": 1,
+    "editor.showFoldingControls": "always",
+    "editor.unfoldOnClickAfterEndOfLine": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true
+}

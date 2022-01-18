@@ -1,0 +1,103 @@
+[
+    {
+        "meta": {
+            "id": "resign",
+            "uuid": "d2695675-3051-4b0f-b241-86e04baf79d1",
+            "src": "sd2",
+            "section": "alpha",
+            "stems": [
+                "resign",
+                "resigned",
+                "resignedly",
+                "resignedness",
+                "resignednesses",
+                "resigner",
+                "resigners",
+                "resigning",
+                "resigns"
+            ],
+            "offensive": false,
+            "salty": null,
+            "sweet": "",
+            "": "None",
+            "0": "0",
+            "1": 0,
+            "is_some_of_this_random": true
+        },
+        "hwi": {
+            "hw": "re*sign",
+            "prs": [
+                {
+                    "mw": "ri-ˈzīn",
+                    "sound": {
+                        "audio": "resign01"
+                    }
+                }
+            ]
+        },
+        "fl": "verb",
+        "ins": [
+            {
+                "if": "re*signed"
+            },
+            {
+                "if": "re*sign*ing"
+            }
+        ],
+        "def": [
+            {
+                "sseq": [
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "1",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to give up (a job or position) by a formal or official act"
+                                    ]
+                                ]
+                            }
+                        ]
+                    ],
+                    [
+                        [
+                            "sense",
+                            {
+                                "sn": "2",
+                                "dt": [
+                                    [
+                                        "text",
+                                        "{bc}to prepare to accept something unpleasant "
+                                    ],
+                                    [
+                                        "vis",
+                                        [
+                                            {
+                                                "t": "Unable to sleep, I {it}resigned{/it} myself to await his return …",
+                                                "aq": {
+                                                    "auth": "Mildred D. Taylor, {it}Roll of Thunder{/it}"
+                                                }
+                                            },
+                                            {
+                                                "t": "I read online that Jack Dorsey did {it}resign{/it} from Twitter today.",
+                                                "aq": {
+                                                    "auth": "The Internetz"
+                                                }
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            }
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "shortdef": [
+            "to give up (a job or position) by a formal or official act",
+            "to prepare to accept something unpleasant"
+        ]
+    }
+]

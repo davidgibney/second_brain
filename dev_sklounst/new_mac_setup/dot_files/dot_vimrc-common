@@ -1,0 +1,73 @@
+set modeline
+
+set ts=2              " Tab Stop 2
+
+set sw=2              " Shift-width 2
+
+set et                " Expand tabs to spaces
+
+set t_Co=256          " 256 color support
+
+set bg=dark           " Dark background
+
+set nocompatible      " We're running Vim, not Vi!
+
+syntax on             " Enable syntax highlighting
+
+filetype on           " Enable filetype detection
+
+filetype indent on    " Enable filetype-specific indenting
+
+filetype plugin on    " Enable filetype-specific plugins
+
+compiler ruby         " Enable compiler support for ruby
+
+set ai                " auto indent
+
+set laststatus=2      " so airline always shows up
+
+set ofu=syntaxcomplete#Complete " Omnicomplete
+
+" Toggle the tlist tag window with F8
+
+let Tlist_GainFocus_On_ToggleOpen=1 " Focus the tag list when it opens
+
+let g:user_emmet_leader_key='<C-e>'
+
+let g:slime_target = "tmux"
+
+set pastetoggle=<F10> " Paste toggle is F10
+
+nnoremap <silent> <F8> :TlistToggle<CR>
+
+map <F9> :NERDTreeToggle<CR>
+
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+map <F3> :vertical wincmd f<CR>
+
+let g:syntastic_python_checkers = ['flake8']
+
+let g:syntastic_check_on_open=1
+
+let g:syntastic_enable_signs=1
+
+let g:syntastic_auto_jump=1
+
+let g:syntastic_ruby_checkers=['rubocop']
+
+let g:syntastic_php_checkers=['php']
+
+let g:syntastic_json_checkers=['jsonlint', 'jsonval']
+
+let g:syntastic_twig_checkers=['twiglint']
+
+" let g:syntastic_auto_loc_list=0
+
+let g:syntastic_enable_highlighting=1
+
+let g:syntastic_echo_current_error=1
+
+" colorscheme mango
+
+set hidden

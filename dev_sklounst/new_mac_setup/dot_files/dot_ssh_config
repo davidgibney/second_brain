@@ -1,0 +1,9 @@
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IgnoreUnknown UseKeyChain
+  User thehackerknownasdavidgibney
+  #StrictHostKeyChecking no
+  #ForwardAgent yes
+  #IdentityFile ~/.ssh/id_ed25519/some_key
+  #IdentityFile ~/.ssh/id_rsa/some_key

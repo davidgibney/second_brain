@@ -1,0 +1,15 @@
+source /my/path/whatever/vimrc
+
+call pathogen#runtime_append_all_bundles() " Load any pathogen bundles
+
+source ~/.vim/.vimrc-common
+
+colorscheme ChocolateLiquor
+
+set number
+
+set cursorline
+
+set linebreak
+
+set textwidth=0 wrapmargin=0
